@@ -1,0 +1,38 @@
+{
+  "name": "lylog",
+  "version": "0.1.6",
+  "description": "Syslog proxy that receives syslogs from Fastly, and sends them to Logly.",
+  "main": "lylog.js",
+  "bin": {
+    "lylog": "bin/lylog.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "cidr_match": "~0.0.7",
+    "dashdash": "~1.4.0"
+  },
+  "devDependencies": {
+    "tap": "^1.2.0"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/drylikov/lylog"
+  },
+  "keywords": [
+    "fastly",
+    "loggly",
+    "syslog",
+    "proxy"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drylikov/lylog/issues"
+  },
+  "homepage": "https://github.com/drylikov/lylog"
+}
